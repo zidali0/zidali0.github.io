@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Zida Li</title>
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" href="image/icons/tab_icon.png" type="favicon/ico" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+<script type="text/javascript" src="js/zidajs.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+ <!--   <script type="text/javascript" src="../js/jssor.js"></script> -->
+
+	
+    
+<div id="outer">
+  <div id="wrapper">
+  	<div id="header_wrapper">
+    	<div id="logo">
+      	<img src="image/icons/logo.png" alt="logo"/>
+      </div>
+      
+      <div id="social-media">
+      	<ul>
+          <li><a href="https://www.linkedin.com/pub/zida-li/40/870/6b1" target="_blank"><img src="image/icons/linkedin.png" alt="LindedIn"/></a>
+          <li><a href="https://scholar.google.com/citations?user=9s8iCB0AAAAJ&amp;hl=en" target="_blank"><img src="image/icons/google_scholar.png" alt="Google Scholar" /></a>
+          <li><a href="http://me.engin.umich.edu/ibbl/" target="_blank"><img src="image/icons/um_ibbl.png" alt="IBBL lab at UM" /></a>
+          <li><a href="http://web.hku.hk/~ashum" target="_blank"><img src="image/icons/hku.png" alt="Shum lab at HKU" /></a>
+          <li><a href="http://staff.ustc.edu.cn/~heliqun/" target="_blank"><img src="image/icons/ustc.jpg" alt="He lab at USTC" /></a>
+        </ul>
+      </div>
+      </div>
+      <div id="topnav">
+        <ul>
+          <a href="index.html"><li>HOME</li></a>
+          <a href="about.html"> <li>ABOUT</li></a>
+          <a href="research.html"> <li>RESEARCH</li></a>
+		  <a href="gallery.html"><li>GALLERY</li></a>
+          <a href="contact.html"><li>CONTACT</li></a>
+        </ul>
+      </div>
+    
+	
+<!-- Content of individual page starts-->
+<div id="content-research">
+    <div id="research-intro">
+		<p>My research is focused on developing tools to address problems in biomedical research using micro-/nano-technology. In particular, I'm interested in</br>
+		<ul>
+			<li>BioMEMS for development of point-of-care testing tools for cardiovascular diseases</li>
+			<li>Mechanobiology of stem cell neural differentiation</li>
+			<li>Fluid dynamics and applications of microfluidic two-phase system</li>
+		</ul>
+		</p>
+	</div>
+
+	
+	<hr>
+	
+	<div id="research-project" >
+		<div id="project-description">
+			<h2>A miniaturized device for point-of-care blood coagulation testing</h2>
+			<img src="image/mHRM.png" alt="mHRM" style="margin:20px 20px"/>
+			<p>
+				Heart disease is the leading cause of death in the United States, and dysregulation of blood coagulation is a critical reason. Assays of coagulation functionality can provide critical information for the diagnosis of thrombosis, such as heart attack, as well as bleeding disorders. Current coagulation assays have significant limitations including high cost, large footprint, large sample consumption, and low throughput. My thesis aims to develop a miniaturized device that enables high accuracy, high throughput, and low-cost measurement that can be readily applied for point-of-care coagulation testing. Such a device will provide more reliable measurement with better accessibility, which could potentially lead to more timely diagnosis and treatment of thrombosis.</br></br>
+				I designed two doubly-clamped beams made from soft materials (PDMS) serving as force sensors, with protrusions at beam centers to hold blood samples. When a blood drop is suspended between the two protrusions, hydrophobicity of the beam material and surface tension ensures that the blood sample acquires a certain shape. This unique design allows highly reproducible localization of blood sample with tiny volume, which is critical for precise measurement. By taking images of the beams and tracking the location of the fiducial markers on them, the contraction force generated can be readily deduced. I confirmed the efficacy of this design by showing the comparability of the readout with a commercialized instrument (Thromboelastography), and its capability to differentiate blood samples treated with anti- or pro- coagulant drugs.</br></br>
+				This <a href="http://me.engin.umich.edu/ibbl/pdf/2016_Small_Li.pdf" target="_blank">paper</a> was published on Small as a frontispiece. I received Baxter Young Investigator Award in 2016 on this project.
+			</p>
+		<hr />
+		</div>
+    </div>
+	
+	
+	<div id="research-project" >
+		<div id="project-description">
+			<h2>A pluripotent stem cell differentiation platform for neural teratogen screening</h2>
+			<img src="image/hPSC_blurred.png" alt="hPSC" width=630px style="margin:20px 20px"/>
+			<p>
+				Congenital malformation, or birth defect, is a structural defect in the body due to abnormal embryonic or fetal development, which affects one in every 33 babies in the United States. Environmental factors have profound effect on birth defect. Among these factors, medication in pregnancy is the most important one. However, due to the lack of methods to test teratogenicity (the potential to induce birth defect) of medications, most drugs on the market have limited information about the effect on women in pregnancy. This project aims to develop an in vitro platform for neural teratogen screening, based on neural patterning of human pluripotent stem cells.</br></br>
+				
+				Besides the experimental part, I also designed an algorithm to process large amount of fluorescence images and implemented it. In particular, I used Python to import all the images under a given directory. With each image, the program finds the centroid of the colony and crop it out. The program then calculates the distribution of the fluorescent intensity, which was the time limited step. I designed an algorithm to optimize this step, which took 10 times less time compared to the intuitive algorithm. The intensity distribution represents the differential gene expression, which is a critical information of the drug’s effect on neural differentiation.</br> 
+			</p>
+		<hr />
+		</div>
+    </div>
+
+
+	<div id="research-project" >
+		<div id="project-description">
+			<h2>An in vitro platform for tumor metastasis evaluation</h2>
+			<img src="image/metastasis_device.png" alt="Cancer metastasis" width=450px style="margin:20px 20px"/>
+			<p>
+				Cancer metastasis is a major cause of most cancer-related death. Evaluation of metastasis potential of primary tumor can provide critical prognostic information. In this project, I collaborated with Dr. Aw Yong to develop an in vitro platform for tumoroid culture and assessment of invasion potential. This platform was designed with universally available techniques, aiming for easy translation to other research labs and clinics. I was responsible for the implementation of the mechanical design and optimization of the flow field. The figure above showed the visualization of the pressure field using COMSOL Multiphysics. The manuscript is currently under review. 
+			</p>
+		<hr />
+		</div>
+    </div>
+
+
+	<div id="research-project" >
+		<div id="project-description">
+			<h2>Visualization of minute fluctuation in flow rate using aqueous two phase system (ATPS) with ultra-low interfacial tension</h2>
+			<p>
+				Aqueous two phase systems are composed of two immiscible aqueous liquids. The most commonly used ATPS is the PEG-dextran system. The mixture of PEG solution and dextran solution separates into two phases when the polymers exceed a certain limiting concentration.</br></br>
+				
+				An interesting property of ATPS is that their interfacial tension is ultra-low, normally 100 times smaller compared to water/oil system. This unique property provides a way to visualize the fluctuation in the pressure or the flow rate in the flow.
+			</p>
+			<h3>Syringe-pump-induced fluctuation in all-aqueous microfluidic system: implications for flow rate accuracy</h3>
+			<img src="image/ATPS_interfacial.png" alt="Pump fluctuation" style="margin:20px 20px"/>
+			<p>
+				In this project, I used an ATPS and generated a jet of one phase in the other phase. The jet was supplied with a syringe pump, which constantly induced normally negligible minute fluctuation in the flow rate. Given the low interfacial tension of the ATPS, we expected to observe vibrations or ripples on the interface of the jet. Indeed, fluctuation in the flow rate was displayed on the interface, and the we found that the frequency of the ripples matched the frequency of the stepper motor in the syringe pump. This method can be used to detect minute fluctuation in a fluid flow.</br></br>
+				Details can be found in this <a href="http://web.hku.hk/~ashum/published%20articles/Li_LabChip_2014.pdf" target="_blank">publication.</a></br>
+			</p>
+			
+			<hr style='border-style:dashed; border-width:1px; border-color: gray'>
+			
+			<h3>Musical Interfaces: Visualization and Reconstruction of Music with a Microfluidic Two-Phase Flow</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/AbPyOgrzZrw" frameborder="0" allowfullscreen></iframe>
+			<p>
+				Based on the same principle, my colleague and I developed a method to visualize music. By inducing the sound waves into flow, the interface of the jet shakes at different frequency in response to the different musical notes. By capturing the interface using a high speed camera (>1000 frames/sec) and analyzing the images, we could recover the music score. This video shows a dancing jet when listening to Nostalgy.</br></br>
+				
+				Details of this project can be found in this <a href="http://www.nature.com/articles/srep06675" target="_blank">publication</a>.
+			</p>
+			
+
+		</div>
+    </div>
+
+
+<!--
+	For future revision
+ 	<div id="research-project" >
+		<div id="project-description">
+			<h2>TITLE</h2>
+			<img src="image/Droplet microfluidics_web.png" alt="droplet"/>
+			<p>
+				CONTENT. 
+			</p>
+		<hr />
+		</div>
+    </div> 
+-->
+    
+      
+    
+</div>
+
+<div id="footer">
+	<p>Last edited: Dec. 2016 | Zida Li</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
