@@ -1,14 +1,18 @@
 /* CSS Document */
 
 body {
-	background-color:#CCC;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #333333;
+    font-size: 15px;
+    text-align: justify;
+
+	background-color:#cccccc54;
 }
-f
+
 h1 {
-	 font-family:Arial, Helvetica, sans-serif;
-	 font-size:36px;
-	 color:#06F;
- }
+	 /* font-family:Arial, Helvetica, sans-serif; */
+	 font-size:25px;
+}
  
  news-shortBio{
      font-family: Arial, Helvetica, sans-serif;
@@ -18,8 +22,12 @@ h1 {
      font-weight: bold;
  }
  
+ h2{
+	 margin:20px 20px 0px 0px;
+ }
+ 
  p{
-	 font-family:Arial, Helvetica, sans-serif;
+/* 	 font-family:Arial, Helvetica, sans-serif; */
  }
  
  #outer {
@@ -89,7 +97,7 @@ margin:20px ;
  }
  
  #topnav a:hover{
-	 background-color:#0D3D56;
+	 background-color:#83045C;
 	 color:#FFF;
  }
  
@@ -107,7 +115,8 @@ margin:20px ;
 	 border-right:1px #000 solid;
 	 padding:0 20px;
 	 font-weight:bold;
-	 font-family: Arial, Helvetica, sans-serif;
+	 letter-spacing: 1px;
+	 /* font-family: Arial, Helvetica, sans-serif; */
  }
  
  #banner {
@@ -127,40 +136,96 @@ margin:20px ;
  #content-index{
 	 /*width:600px;*/
 	 /*float:left;*/
-	 padding:20px;
+	 padding: 0px 20px 20px 20px;
  }
  
 #welcome{
 	width: 900px;
 	
-}	
+}
+
+#heading{
+	clear:both;
+}
+	
 #profile-image{
 	 float:left;
 	 margin:20px;
+	 clear: both;
+ }
+ 
+ #profile-content{
+	 float:left;
+	 
  }
  
 #welcome-content{
-	 width: 630px;
-	 float: right;
+/* 	 width: 630px; */
+	 clear: both;
 	 margin: 0px 20px 0px 20px;
 	 
  }
 	 
+#selected-pub{
+	width: 530px;
+	padding: 0px 20px 0px 20px;
+	float: left;
+	
+}
+
+#sel-pub-item{
+	margin: 20px 0px 20px 0px;
+
+}
+	 
+ 
+#people-section{
+	width: 860px;
+	padding: 0px 20px 0px 20px;
+	margin: auto;
+}
  
  
-  #news{
-	 /*width:200px;*/
-	 /*float:right;*/
-	 padding:20px;
-	 clear: both;
+ 
+#news{
+	 width:270px;
+ 	 float:right;
+ }
+ 
+ #news-item{
+	 padding:0px 0px 10px 0px;
+	 
+	 
  }
  
  #news p{
  font-size:15px;
  }
+ 
  .news-date{
 	 width: 100px;
 	 font-weight: bold;
+ }
+ 
+ 
+ #links{
+	 width:840px;
+	 float:left;
+	 padding: 20px;
+ }
+ 
+ #link-item-left{
+	 width: 400px;
+	margin: 5px 0px 5px 0px;
+	float:left;
+	clear: both;
+ }
+ 
+ #link-item-right{
+	 width:400px;
+	 margin: 5px 0px 5px 0px;
+	 float: right;
+	 
  }
  
  #content-about{
@@ -201,12 +266,11 @@ padding:20px;
 }
 
 #research-intro li{
-	font-family: Arial, Helvetica;
 	margin: 5px;
 }
  
- #research-project{
-	 
+ #research-project h2{
+	 margin:13.28px 0px 13.28px 0px;
  }
    #google-map{
 	 width:500px;
@@ -255,6 +319,12 @@ bottom:-100px;
 padding:0px 10px 0px 10px;
 }
 
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 .news_title {
   padding: 5px;
@@ -301,7 +371,7 @@ padding:0px 10px 0px 10px;
 }
 
 .publication_list, .patent_list{
-	font-family: Arial, Helvetica;
+	/* font-family: Arial, Helvetica; */
 	line-height: 120%;
 }
 
