@@ -467,7 +467,7 @@ padding: 0px 40px 20px 40px;
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline;
 
 }
 
