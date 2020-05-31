@@ -152,10 +152,12 @@ margin:20px ;
 	 float:left;
 	 margin:20px;
 	 clear: both;
+	 width: 150px;
  }
  
  #profile-content{
 	 float:left;
+	 width:550px;
 	 
  }
  
